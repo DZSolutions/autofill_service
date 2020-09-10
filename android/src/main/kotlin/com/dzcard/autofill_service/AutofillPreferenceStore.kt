@@ -1,4 +1,4 @@
-package design.codeux.autofill_service
+package com.dzcard.autofill_service
 
 import android.content.*
 import androidx.core.content.edit
@@ -48,7 +48,7 @@ class AutofillPreferenceStore private constructor(private val prefs: SharedPrefe
 
     companion object {
 
-        private const val SHARED_PREFS_NAME = "design.codeux.autofill.prefs"
+        private const val SHARED_PREFS_NAME = "com.dzcard.autofill.prefs"
 
         private val lock = Any()
         private var instance: AutofillPreferenceStore? = null

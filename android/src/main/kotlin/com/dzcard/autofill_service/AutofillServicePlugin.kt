@@ -1,4 +1,4 @@
-package design.codeux.autofill_service
+package com.dzcard.autofill_service
 
 import android.app.Activity.RESULT_OK
 import android.app.assist.AssistStructure
@@ -270,7 +270,7 @@ class AutofillServicePlugin : MethodCallHandler {
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
-            val channel = MethodChannel(registrar.messenger(), "codeux.design/autofill_service")
+            val channel = MethodChannel(registrar.messenger(), "dzcard.com/autofill_service")
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 channel.setMethodCallHandler(AutofillServicePluginImpl(registrar))
             } else {

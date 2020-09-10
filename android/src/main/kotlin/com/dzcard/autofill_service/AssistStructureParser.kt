@@ -1,4 +1,4 @@
-package design.codeux.autofill_service
+package com.dzcard.autofill_service
 
 import android.annotation.TargetApi
 import android.app.assist.AssistStructure

@@ -1,4 +1,4 @@
-package design.codeux.autofill_service_example
+package com.dzcard.autofill_service_example
 
 import android.os.Bundle
 
