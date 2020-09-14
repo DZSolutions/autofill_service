@@ -1,4 +1,4 @@
-package com.dzcard.autofill_service
+package com.dzsolutions.autofill_service
 
 import android.annotation.TargetApi
 import android.app.*

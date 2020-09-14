@@ -1,4 +1,4 @@
-group 'com.dzcard.autofill_service'
+group 'com.dzsolutions.autofill_service'
 version '1.0-SNAPSHOT'
 
 buildscript {

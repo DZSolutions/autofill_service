@@ -1,4 +1,4 @@
-package com.dzcard.autofill_service_example
+package com.dzsolutions.autofill_service_example
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

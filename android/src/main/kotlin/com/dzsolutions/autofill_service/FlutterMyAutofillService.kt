@@ -1,4 +1,4 @@
-package com.dzcard.autofill_service
+package com.dzsolutions.autofill_service
 
 import android.annotation.TargetApi
 import android.app.PendingIntent
@@ -36,7 +36,7 @@ class FlutterMyAutofillService : AutofillService() {
         val self = ComponentName(this, javaClass)
 
         val metaData = packageManager.getServiceInfo(self, PackageManager.GET_META_DATA).metaData
-        metaData.getString("com.dzcard.autofill_service.unlock_label")?.let {
+        metaData.getString("com.dzsolutions.autofill_service.unlock_label")?.let {
             unlockLabel = it
         }
         logger.info("Unlock label will be $unlockLabel")
@@ -66,9 +66,9 @@ class FlutterMyAutofillService : AutofillService() {
 
         val startIntent = Intent()
         // TODO: Figure this out how to do this without hard coding everything..
-        startIntent.setClassName(applicationContext, "com.dzcard.dzpass.MainActivity")
+        startIntent.setClassName(applicationContext, "com.dzsolutions.proxipass.MainActivity")
         startIntent.action = Intent.ACTION_RUN
-        //"com.dzcard.autofill_service_example.MainActivity")
+        //"com.dzsolutions.autofill_service_example.MainActivity")
 //        val startIntent = Intent(Intent.ACTION_MAIN).apply {
 //                                `package` = applicationContext.packageName
 //                    logger.debug { "Creating custom intent." }

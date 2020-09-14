@@ -1,4 +1,4 @@
-package com.dzcard.autofill_service
+package com.dzsolutions.autofill_service
 
 import android.app.Activity.RESULT_OK
 import android.app.assist.AssistStructure

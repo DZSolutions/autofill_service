@@ -1,4 +1,4 @@
-package com.dzcard.autofill_service
+package com.dzsolutions.autofill_service
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar

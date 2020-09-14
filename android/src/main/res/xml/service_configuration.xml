@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <autofill-service xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" tools:targetApi="p"
-    android:settingsActivity="com.dzcard.autofill_service.SettingsActivity">
+    android:settingsActivity="com.dzsolutions.autofill_service.SettingsActivity">
     <compatibility-package
         android:name="com.android.chrome"
         android:maxLongVersionCode="10000000000"
