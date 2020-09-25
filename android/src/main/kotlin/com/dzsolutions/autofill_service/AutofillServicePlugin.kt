@@ -1,4 +1,4 @@
-package design.codeux.autofill_service
+package com.dzsolutions.autofill_service
 
 import android.annotation.SuppressLint
 import android.app.Activity.RESULT_OK
