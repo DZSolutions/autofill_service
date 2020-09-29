@@ -299,7 +299,7 @@ class AutofillServicePlugin : FlutterPlugin, ActivityAware {
     private var channel: MethodChannel? = null
 
     override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
-        val channel = MethodChannel(binding.binaryMessenger, "dzcard.com/autofill_service")
+        val channel = MethodChannel(binding.binaryMessenger, "dzsolutions.com/autofill_service")
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val impl = AutofillServicePluginImpl(binding.applicationContext)
             channel.setMethodCallHandler(impl)

@@ -31,7 +31,7 @@ class AutofillService {
   AutofillService._();
 
   static const MethodChannel _channel =
-      MethodChannel('dzcard.com/autofill_service');
+      MethodChannel('dzsolutions.com/autofill_service');
 
   static final _instance = AutofillService._();
 
